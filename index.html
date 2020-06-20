@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/style.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <title>CAROUSEL</title>
+</head>
+
+<body>
+  <!-- NAVBAR starts here -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid nav-wrapper">
+      <div class="navbar-brand">
+        <span class="h1">SAILOR</span>
+      </div>
+      <button class="btn btn-danger px-sm-4 px-1 order-lg-last">
+        Get Started
+      </button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav mr-auto mx-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link" data-toggle="dropdown" id="dd">About </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">About Us</a>
+              <a class="dropdown-item" href="#">Team</a>
+              <a class="dropdown-item" href="#">Testimonials</a>
+            </div>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- NAVBAR ends here -->
+  <!-- CAROUSEL starts here -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active bg-danger"></li>
+      <li data-target="#myCarousel" data-slide-to="1" class="bg-info"></li>
+      <li data-target="#myCarousel" data-slide-to="2" class="bg-warning"></li>
+    </ol>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/img/slide/slide-1.jpg" alt="Los Angeles" />
+        <div class="carousel-caption">
+          <h1>Slide 1</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Asperiores ducimus.
+          </p>
+          <button class="btn btn-danger px-4">
+            Read More
+          </button>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="./img/slide/slide-2.jpg" alt="Chicago" />
+        <div class="carousel-caption">
+          <h1>Slide 2</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Asperiores.
+          </p>
+          <button class="btn btn-danger px-4">
+            Read More
+          </button>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="./img/slide/slide-3.jpg" alt="New york"/>
+        <div class="carousel-caption">
+          <h1>Slide 3</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Asperiores.
+          </p>
+          <button class="btn btn-danger px-4">
+            Read More
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+<!-- CAROUSEL ends here -->
+<!-- SECTION 1 starts here -->
+  <div class="container py-5 header2">
+    <div class="row">
+      <div class="col-sm mr-sm-3 mb-5">
+        <h1>EUM IPSAM LABORUM DELENITI VELITENA</h1>
+        <p class="mt-4">
+          Voluptatem dignissimos provident quasi corporis voluptates sit assum
+          perenda sruen jonee trave
+        </p>
+      </div>
+      <div class="col-sm">
+        <p>
+          Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore
+          eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum
+        </p>
+        <ul class="my-4">
+          <li>Ullamco laboris nisi ut aliquip ex ea commodo consequa</li>
+          <li>Duis aute irure dolor in reprehenderit in voluptate velit</li>
+          <li>
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in
+          </li>
+        </ul>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Consequuntur, nemo.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- SECTIONS ends here -->
+  <!-- CLIENT SECTION starts here -->
+  <div class="container-fluid logos bg-light py-4">
+    <div class="row text-center">
+      <div class="col-sm-2 col-6">
+        <img src="/img/clients/client-1.png" alt="" />
+      </div>
+      <div class="col-sm-2 col-6">
+        <img src="/img/clients/client-2.png" alt="" />
+      </div>
+      <div class="col-sm-2 col-6">
+        <img src="/img/clients/client-3.png" alt="" />
+      </div>
+      <div class="col-sm-2 col-6">
+        <img src="/img/clients/client-4.png" alt="" />
+      </div>
+      <div class="col-sm-2 col-6">
+        <img src="/img/clients/client-5.png" alt="" />
+      </div>
+      <div class="col-sm-2 col-6">
+        <img src="/img/clients/client-6.png" alt="" />
+      </div>
+    </div>
+  </div>
+  <!-- CLIENT SECTION ends here -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".navbar-toggler").click(() => {
+        $(".navbar-toggler-icon").toggleClass("navbar-toggler-icon-close");
+        $(".nav-wrapper").toggleClass("collap");
+      });
+
+      $("body").click((e) => {
+        if ($(".collap").is($(e.target))) {
+          $(".navbar-toggler-icon").click();
+        }
+      });
+
+      $("#nav").click((e) => {
+        if ($("#nav").is($(e.target))) {
+          $(".navbar-toggler-icon").click();
+        }
+      });
+
+    });
+  </script>
+
+</body>
+
+</html>
