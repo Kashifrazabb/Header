@@ -46,8 +46,8 @@ nav > ul > li > .active,
   color: #d9232d;
 }
 
-.dropdown .nav-link:after{content:'⯆';}
-.dropdown.show .nav-link:after{content:'⯅';}
+.dropdown .nav-link:after{content:'˅';}
+.dropdown.show .nav-link:after{content:'˄';}
 
 .carousel img {
   height: 100vh;
