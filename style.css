@@ -201,12 +201,12 @@ nav > ul > li > .active,
 
   .carousel-control-next {
     top:20%;
-    right:-3%;
+    right:0%;
   }
   
   .carousel-control-prev {
     top:20%;
-    left:-3%;
+    left:0%;
   }
 
   .header2 h1{
