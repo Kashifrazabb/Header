@@ -170,6 +170,10 @@ nav > ul > li > .active,
 .portfolio-section li{
   cursor: pointer;
 }
+
+.pics .row {
+  margin-bottom:5px;
+}
 @media (max-width: 800px) {
   .carousel img {
     height: auto;
@@ -272,3 +276,4 @@ nav > ul > li > .active,
   }
   
 }
+
