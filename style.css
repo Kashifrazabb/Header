@@ -137,7 +137,8 @@ nav > ul > li > .active,
 .logos .row div:nth-child(5) img{width:80px;height:33px;}
 .logos .row div:nth-child(6) img{width:80px;height:26px;}
 .logos .row div{padding:10px 0;}
-.fa{color:tomato}
+.fa{color:dodgerblue}
+.card-icon{color:tomato}
 
 #service-title,#portfolio-title{
   position: relative;
@@ -173,6 +174,16 @@ nav > ul > li > .active,
 
 .pics .row {
   margin-bottom:5px;
+}
+
+.footer-section a{
+  color:#fff;
+}
+.footer-section a:hover{
+  color:#d9232d;
+}
+.footer-section .col-sm-3 {
+  padding-bottom:20px;
 }
 @media (max-width: 800px) {
   .carousel img {
