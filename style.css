@@ -6,12 +6,9 @@
 }
 .doc-btn{
   position: fixed;
-  top:90%;
-  left:95%;
+  bottom:2%;
+  right:2%;
   display: none;
-}
-.doc-btn:focus{
-  box-shadow: none;
 }
 
 nav {
