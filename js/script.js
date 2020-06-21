@@ -1,11 +1,4 @@
 $(document).ready(function () {
-    $(()=>$('#navigation-bar').load('../html/navbar.html'))
-    $(()=>$('#carousel').load('../html/carousel.html'))
-    $(()=>$('#section').load('../html/section.html'))
-    $(()=>$('#clients').load('../html/clients.html'))
-    $(()=>$('#services').load('../html/services.html'))
-    $(()=>$('#portfolio').load('../html/portfolio.html'))
-    $(()=>$('#footer').load('../html/footer.html'))
     
     $(".navbar-toggler").click(() => {
     $(".navbar-toggler-icon").toggleClass("navbar-toggler-icon-close");
@@ -28,7 +21,7 @@ $(document).ready(function () {
     else { $var1 = 800 }
     if ($(document).scrollTop() >= $var1) {
         $('.doc-btn').css({ visibility: 'visible', opacity: '1', 'z-index': 1 })}
-    else { $('.doc-btn').css({ visibility: 'hidden' }) }
+    else { $('.doc-btn').css({ visibility: '' }) }
     })
 
     $('.doc-btn').click(() => {
