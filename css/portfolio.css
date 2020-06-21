@@ -1,0 +1,13 @@
+#portfolio-title{position: relative;}
+
+#portfolio-title:after {
+    content: '\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0';
+    position: absolute;top:50%;border-top: 1px solid #d9232d;}
+
+.portfolio-section li{cursor: pointer;}
+
+.pics .row {margin-bottom:5px;}
+
+@media (max-width:500px){
+    #portfolio-description{font-size: 8vw;}
+}

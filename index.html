@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="./css/style.css" />
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
@@ -16,11 +16,11 @@
   <button class='btn btn-danger btn-lg border-rounded doc-btn'>^</button>
   <!-- NAVBAR starts here -->
   <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container-fluid nav-wrapper">
+    <div class="container-fluid navbar-wrapper">
       <div class="navbar-brand">
         <span class="h1">SAILOR</span>
       </div>
-      <button class="btn btn-danger px-sm-4 px-1 order-lg-last">
+      <button class="btn btn-danger px-1 px-lg-1 px-xl-4 order-lg-last">
         Get Started
       </button>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav">
@@ -67,7 +67,7 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Asperiores ducimus.
           </p>
-          <button class="btn btn-danger px-4">
+          <button class="btn btn-danger px-1 px-xl-4 px-lg-3">
             Read More
           </button>
         </div>
@@ -81,7 +81,7 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Asperiores.
           </p>
-          <button class="btn btn-danger px-4">
+          <button class="btn btn-danger px-1 px-xl-4 px-lg-3">
             Read More
           </button>
         </div>
@@ -95,7 +95,7 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Asperiores.
           </p>
-          <button class="btn btn-danger px-4">
+          <button class="btn btn-danger px-1 px-xl-4 px-lg-3">
             Read More
           </button>
         </div>
@@ -187,7 +187,7 @@
       <div class="col-md-6 col-12 service-card">
         <div class="row">
           <div class="col-2">
-            <i class='fa fa-id-card fa-2x card-icon'></i>
+            <i class='fa fa-id-card fa-2x service-card-icon'></i>
           </div>
           <div class="col-10">
             <h3>Lorem Ipsum 1</h3>
@@ -199,7 +199,7 @@
       <div class="col-md-6 col-12 service-card">
         <div class="row">
           <div class="col-2">
-            <i class='fa fa-plane fa-2x card-icon'></i>
+            <i class='fa fa-plane fa-2x service-card-icon'></i>
           </div>
           <div class="col-10">
             <h3>Lorem Ipsum 2</h3>
@@ -211,7 +211,7 @@
       <div class="col-md-6 col-12 service-card">
         <div class="row">
           <div class="col-2">
-            <i class='fa fa-thumbs-up fa-2x card-icon'></i>
+            <i class='fa fa-thumbs-up fa-2x service-card-icon'></i>
           </div>
           <div class="col-10">
             <h3>Lorem Ipsum 3</h3>
@@ -223,7 +223,7 @@
       <div class="col-md-6 col-12 service-card">
         <div class="row">
           <div class="col-2">
-            <i class='fa fa-university fa-2x card-icon'></i>
+            <i class='fa fa-university fa-2x service-card-icon'></i>
           </div>
           <div class="col-10">
             <h3>Lorem Ipsum 4</h3>
@@ -235,7 +235,7 @@
       <div class="col-md-6 col-12 service-card">
         <div class="row">
           <div class="col-2">
-            <i class='fa fa-trophy fa-2x card-icon'></i>
+            <i class='fa fa-trophy fa-2x service-card-icon'></i>
           </div>
           <div class="col-10">
             <h3>Lorem Ipsum 5</h3>
@@ -247,7 +247,7 @@
       <div class="col-md-6 col-12 service-card">
         <div class="row">
           <div class="col-2">
-            <i class='fa fa-phone fa-2x card-icon'></i>
+            <i class='fa fa-phone fa-2x service-card-icon'></i>
           </div>
           <div class="col-10">
             <h3>Lorem Ipsum 6</h3>
@@ -299,7 +299,7 @@
         </div>
       </div>
 
-      <div class="col-sm-3 mx-4">
+      <div class="col-sm-3 mx-1">
         <div class="row card">
           <img class='img-fluid' src="./img/portfolio/portfolio-4.jpg" alt="">
         </div>
@@ -396,56 +396,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-
-  <script>
-    $(document).ready(function () {
-      $(".navbar-toggler").click(() => {
-        $(".navbar-toggler-icon").toggleClass("navbar-toggler-icon-close");
-        $(".nav-wrapper").toggleClass("collap");
-      });
-
-      $("body").click((e) => {
-        if ($(".collap").is($(e.target))) {
-          $(".navbar-toggler-icon").click();
-        }
-      });
-
-      $("#nav").click((e) => {
-        if ($("#nav").is($(e.target))) {
-          $(".navbar-toggler-icon").click();
-        }
-      });
-
-      $(window).scroll(() => {
-        let md = window.matchMedia("(max-width:500px)").matches;
-        if (md) { $var1 = 300 }
-        else { $var1 = 800 }
-        if ($(document).scrollTop() >= $var1) {
-          $('.doc-btn').css({ display: 'inline', opacity: '1', 'z-index': 1 })
-        }
-        else { $('.doc-btn').css({ display: 'none' }) }
-      })
-
-      $('.doc-btn').click(() => {
-        $('.doc-btn').css('box-shadow', 'none')
-        $('html,body').animate({ scrollTop: 0 }, 1500)
-        $('.doc-btn').animate({ opacity: 0 }, 1500)
-      })
-
-      $('.portfolio-section a').click((e) => {
-        $('.pics .row').css('display', 'block');
-        $('#' + e.target.id).css({ color: 'white', background: 'red' });
-        $('.portfolio-section a').not('#' + e.target.id).css({ color: 'black', background: 'transparent' });
-        if (e.target.id == 'app') { $('.pics .row').not('.' + 'app').css('display', 'none') }
-        if (e.target.id == 'web') { $('.pics .row').not('.' + 'web').css('display', 'none') }
-        if (e.target.id == 'card') { $('.pics .row').not('.' + 'card').css('display', 'none') }
-        if (e.target.id == 'all') { $('.pics .row').css('display', 'block') }
-
-      })
-
-    });
-  </script>
-
+  <script src="./js/script.js"></script>
+  
 </body>
 
 </html>

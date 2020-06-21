@@ -1,0 +1,9 @@
+#service-title{position: relative;}
+  
+#service-title:after {
+    content: '\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0';
+    position: absolute;top:50%;border-top: 1px solid #d9232d;}
+
+.service-card{padding-bottom: 20px;cursor: pointer;}
+
+@media (max-width:500px){#service-description{font-size: 7vw;}}

@@ -1,0 +1,16 @@
+.navbar {background: #fff}
+
+.navbar a {color: #556270;}
+
+.navbar ul > li:hover > a,.navbar .active,.navbar-brand,.footer-section a:hover,
+.service-card-icon,.service-card:hover h3 {color: #d9232d}
+
+.navbar .dropdown a:hover{color:#d9232d;background: transparent;}
+
+.carousel-item:before{background: rgba(0,0,0,0.5);}
+
+.footer-section a{color:#fff;}
+
+.portfolio-section a{color:rgba(0, 0, 0, 0.7)}
+
+.portfolio-section a#all{background: red;color:#fff;}
