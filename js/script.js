@@ -1,4 +1,12 @@
 $(document).ready(function () {
+    $(()=>$('#navigation-bar').load('../html/navbar.html'))
+    $(()=>$('#portfolio').load('../html/portfolio.html'))
+    $(()=>$('#services').load('../html/services.html'))
+    $(()=>$('#carousel').load('../html/carousel.html'))
+    $(()=>$('#clients').load('../html/clients.html'))
+    $(()=>$('#footer').load('../html/footer.html'))
+    $(()=>$('#section').load('../html/section.html'))
+    
     $(".navbar-toggler").click(() => {
     $(".navbar-toggler-icon").toggleClass("navbar-toggler-icon-close");
     $(".navbar-wrapper").toggleClass("collap");
@@ -25,7 +33,7 @@ $(document).ready(function () {
 
     $('.doc-btn').click(() => {
     $('.doc-btn').css('box-shadow', 'none')
-    $('html,body').animate({ scrollTop: 0 }, 1500)
+    $('html,body').animate({ scrollTop: 0 }, 1000)
     $('.doc-btn').animate({ opacity: 0 }, 1500)
     })
 
