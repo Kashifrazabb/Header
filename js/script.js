@@ -27,8 +27,8 @@ $(document).ready(function () {
     if (md) { $var1 = 300 }
     else { $var1 = 800 }
     if ($(document).scrollTop() >= $var1) {
-        $('.doc-btn').css({ display: 'inline', opacity: '1', 'z-index': 1 })}
-    else { $('.doc-btn').css({ display: 'none' }) }
+        $('.doc-btn').css({ visibility: 'visible', opacity: '1', 'z-index': 1 })}
+    else { $('.doc-btn').css({ visibility: 'hidden' }) }
     })
 
     $('.doc-btn').click(() => {
