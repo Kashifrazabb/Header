@@ -19,13 +19,6 @@ height: 50px;background-size: 3rem;}
 
 .carousel-caption{top:30%}
 
-.carousel-caption {animation:caption 2s 1}
-@keyframes caption{
-    0% {top:-10%;}
-    50% {top:50%}
-    100% {top:30%}
-}
-
 .carousel-caption h1 {font-size: 7vw;}
   
 .carousel-caption p {font-size: 3vw;}
@@ -34,11 +27,6 @@ height: 50px;background-size: 3rem;}
 
 @media (max-width: 800px) {
 
-    @keyframes caption{
-    0% {top:-10%;}
-    50% {top:40%}
-    100% {top:30%}
-    }
     .carousel img {height: auto;}
 
     .carousel-indicators li {width: 12px;height: 12px;}
