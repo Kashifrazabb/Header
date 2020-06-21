@@ -23,7 +23,7 @@ height: 50px;background-size: 3rem;}
   
 .carousel-caption p {font-size: 3vw;}
 
-@media (max-width:500px){.carousel-caption p{display: none}}
+@media (max-width:500px){.carousel-caption button{display: none}}
 
 @media (max-width: 800px) {
     .carousel img {height: auto;}
