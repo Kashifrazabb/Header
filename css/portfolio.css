@@ -6,7 +6,10 @@
 
 .portfolio-section li{cursor: pointer;}
 
-.pics .row {margin-bottom:5px;}
+.pics .row {margin-bottom:5px;position: relative;}
+
+.pics .row img:before {content:'';width:100%;height:100%;top:0;left:0;
+    background: rgba(0,0,0,1);position: absolute;display:block}
 
 @media (max-width:500px){
     #portfolio-description{font-size: 8vw;}
