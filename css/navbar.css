@@ -4,9 +4,9 @@
 
 .navbar-toggler:focus{outline: none;}
 
-.navbar-toggler-icon {background-image: url("/img/hamburger.svg");}
+.navbar-toggler-icon {background-image: url("../img/hamburger.svg");}
   
-.navbar-toggler-icon-close {background-image: url("/img/cancel.svg");
+.navbar-toggler-icon-close {background-image: url("../img/cancel.svg");
     background-size: 20px;width: 30px;height: 30px;}
   
 .navbar a {margin: 0 5px;}
