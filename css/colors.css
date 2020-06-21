@@ -9,8 +9,12 @@
 
 .carousel-item:before{background: rgba(0,0,0,0.5);}
 
-.footer-section a{color:#fff;}
+.footer-section{background: #000;}
+
+.footer-section a,.footer-section{color:#fff;}
 
 .portfolio-section a{color:rgba(0, 0, 0, 0.7)}
 
-.portfolio-section a#all{background: red;color:#fff;}
+.portfolio-section a#all,.footer-last{background: #d9232d;color:#fff;}
+
+.footer-icons .fa:hover{color:dodgerblue}
