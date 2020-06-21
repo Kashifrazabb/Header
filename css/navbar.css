@@ -11,9 +11,10 @@
   
 .navbar a {margin: 0 5px;}
 
-.navbar .dropdown > a:after{content:'˅';}
+.navbar .dropdown > a:after{content:'^';display: inline-block;
+  transform: rotate(180deg);transition: transform 0.5s;}
 
-.navbar .dropdown.show > a:after{content:'˄';}
+.navbar .dropdown >a.special:after{transform: rotate(0deg);}
 
 @media (hover: hover) {.dropdown-menu {margin-top: -10px;}}
 

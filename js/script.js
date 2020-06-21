@@ -6,14 +6,12 @@ $(document).ready(function () {
 
     $("body").click((e) => {
     if ($(".collap").is($(e.target))) {
-        $(".navbar-toggler-icon").click();
-    }
+        $(".navbar-toggler-icon").click();}
     });
 
     $("#nav").click((e) => {
     if ($("#nav").is($(e.target))) {
-        $(".navbar-toggler-icon").click();
-    }
+        $(".navbar-toggler-icon").click();}
     });
 
     $(window).scroll(() => {
@@ -21,8 +19,7 @@ $(document).ready(function () {
     if (md) { $var1 = 300 }
     else { $var1 = 800 }
     if ($(document).scrollTop() >= $var1) {
-        $('.doc-btn').css({ display: 'inline', opacity: '1', 'z-index': 1 })
-    }
+        $('.doc-btn').css({ display: 'inline', opacity: '1', 'z-index': 1 })}
     else { $('.doc-btn').css({ display: 'none' }) }
     })
 
@@ -40,7 +37,10 @@ $(document).ready(function () {
     if (e.target.id == 'web') { $('.pics .row').not('.' + 'web').css('display', 'none') }
     if (e.target.id == 'card') { $('.pics .row').not('.' + 'card').css('display', 'none') }
     if (e.target.id == 'all') { $('.pics .row').css('display', 'block') }
+    })
 
+    $('.navbar .dropdown > a').click(()=>{
+        $('.navbar .dropdown > a').toggleClass('special')
     })
 
 });
