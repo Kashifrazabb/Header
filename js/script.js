@@ -1,11 +1,11 @@
 $(document).ready(function () {
     $(()=>$('#navigation-bar').load('../html/navbar.html'))
-    $(()=>$('#portfolio').load('../html/portfolio.html'))
-    $(()=>$('#services').load('../html/services.html'))
     $(()=>$('#carousel').load('../html/carousel.html'))
-    $(()=>$('#clients').load('../html/clients.html'))
-    $(()=>$('#footer').load('../html/footer.html'))
     $(()=>$('#section').load('../html/section.html'))
+    $(()=>$('#clients').load('../html/clients.html'))
+    $(()=>$('#services').load('../html/services.html'))
+    $(()=>$('#portfolio').load('../html/portfolio.html'))
+    $(()=>$('#footer').load('../html/footer.html'))
     
     $(".navbar-toggler").click(() => {
     $(".navbar-toggler-icon").toggleClass("navbar-toggler-icon-close");
