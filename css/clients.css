@@ -1,6 +1,7 @@
-.clients-bg {background-image: url('../img/slide/slide-2.jpg');
-    background-size: cover;
-    background-attachment: fixed}
+:root{--client-bg:rgba(255, 255, 255, 0.4)}
+
+.clients-bg {background:linear-gradient(var(--client-bg),var(--client-bg)), url('../img/slide/slide-3.jpg');
+    background-size: cover;background-attachment: fixed;}
 
 .logos .row .col-6{padding:10px 0;}
 
