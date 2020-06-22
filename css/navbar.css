@@ -2,6 +2,8 @@
 
 .navbar-wrapper {padding: 0 10%;}
 
+.navbar-brand span {font-family: 'Lobster', cursive;}
+
 .navbar-toggler:focus{outline: none;}
 
 .navbar-toggler-icon {background-image: url("../img/hamburger.svg");}
