@@ -17,18 +17,11 @@
       
 #myCarousel .carousel-control-prev {left:-5%;}
 
-#myCarousel .carousel-caption{top:30%}
+#myCarousel .carousel-caption{top:30%;}
 
 #myCarousel .carousel-caption h1 {font-size: 7vw;}
   
 #myCarousel .carousel-caption p {font-size: 3vw;}
-
-#slideshow .indicators a{width:50px;text-decoration: none;
-    height:50px;border-radius: 50%;background: crimson;color:white}
-
-#slideshow .indicators,#slideshow .indicators a{
-    display: flex;justify-content: center;align-items: center;
-}
 
 @media (max-width:500px){.carousel-caption button{display: none}}
 
