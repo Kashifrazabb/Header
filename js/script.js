@@ -52,10 +52,10 @@ $(document).ready(function () {
     $('.pics .row').mouseleave((e)=>$('.pics .row .content').remove())
 
     $('.carousel-caption h1').addClass('animate__animated animate__slideInDown').
-    css('animation-duration','1s')
-    $('.carousel-caption p').addClass('animate__animated animate__slideInLeft').
-    css('animation-duration','2s')
-    $('.carousel-caption button').addClass('animate__animated animate__slideInUp').
     css('animation-duration','3s')
+    $('.carousel-caption p').addClass('animate__animated animate__slideInLeft').
+    css('animation-duration','3s')
+    $('.carousel-caption button').addClass('animate__animated animate__slideInUp').
+    css('animation-duration','1s')
 
 });

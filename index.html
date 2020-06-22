@@ -50,7 +50,7 @@
   <!-- NAVBAR ends here -->
   <!-- CAROUSEL starts here -->
   <div id="myCarousel" class="carousel slide carousel-fade" 
-  data-ride="carousel" data-interval=3000>
+  data-ride="carousel" data-interval=5000>
 
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active bg-danger"></li>
@@ -60,7 +60,7 @@
 
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="/img/slide/slide-1.jpg" alt="Los Angeles" />
+        <img src="./img/slide/slide-1.jpg" alt="Los Angeles" />
         <div class="carousel-caption cap-1">
           <h1>Slide 1</h1>
           <p>
@@ -149,22 +149,22 @@
     <div class="container logos py-4">
       <div class="row text-center">
         <div class="col-sm-2 col-6">
-          <img src="/img/clients/client-1.png" alt="" />
+          <img src="./img/clients/client-1.png" alt="" />
         </div>
         <div class="col-sm-2 col-6">
-          <img src="/img/clients/client-2.png" alt="" />
+          <img src="./img/clients/client-2.png" alt="" />
         </div>
         <div class="col-sm-2 col-6">
-          <img src="/img/clients/client-3.png" alt="" />
+          <img src="./img/clients/client-3.png" alt="" />
         </div>
         <div class="col-sm-2 col-6">
-          <img src="/img/clients/client-4.png" alt="" />
+          <img src="./img/clients/client-4.png" alt="" />
         </div>
         <div class="col-sm-2 col-6">
-          <img src="/img/clients/client-5.png" alt="" />
+          <img src="./img/clients/client-5.png" alt="" />
         </div>
         <div class="col-sm-2 col-6">
-          <img src="/img/clients/client-6.png" alt="" />
+          <img src="./img/clients/client-6.png" alt="" />
         </div>
       </div>
     </div>
@@ -259,6 +259,47 @@
   </div>
 
   <!-- SERVICES SECTION endshere -->
+  <!-- SLIDESHOW starts here -->
+  <div class="container">
+  <div id="slideshow" class="carousel slide" 
+  data-ride="carousel" data-interval=5000 data-pause='false' data-touch="true">
+
+    <div class="carousel-inner row">
+
+      <div class="carousel-item col-lg-3 col-12 active">
+        <img src="./img/slide/slide-1.jpg" alt="Los Angeles" class='img-fluid'/>
+      </div>
+
+      <div class="carousel-item col-lg-3 col-12">
+        <img src="./img/slide/slide-2.jpg" alt="Los Angeles" class='img-fluid'/>
+      </div>
+
+      <div class="carousel-item col-lg-3 col-12">
+        <img src="./img/slide/slide-3.jpg" alt="Los Angeles" class='img-fluid'/>
+      </div>
+
+      <div class="carousel-item col-lg-3 col-12">
+        <img src="./img/slide/slide-1.jpg" alt="Los Angeles" class='img-fluid'/>
+      </div>
+
+      <div class="carousel-item col-lg-3 col-12">
+        <img src="./img/slide/slide-2.jpg" alt="Los Angeles" class='img-fluid'/>
+      </div>
+
+    </div>
+
+    <div class="controls-top mt-3">
+      <a class="btn-floating mr-2" href="#slideshow" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+      <a class="btn-floating" href="#slideshow" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  <!-- SLIDESHOW ends here -->
   <!-- PORFOLIO SECTION starts here -->
   <div class="container py-5 portfolio-section">
     <div class="row pb-5"> <!--ROW 1-->
@@ -330,6 +371,79 @@
     </div>
   </div>
   <!-- PORFOLIO SECTION ends here -->
+  <!-- TEAM SECTION starts here -->
+  <section id="cards">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card shadow-lg">
+                    <img src="./img/team/team-1.jpg" alt="" class='card-img-top w-50 rounded-circle mx-auto'>
+                    <div class="card-body">
+                        <h2 class='card-title text-center'>Member Name</h2>
+                        <h5 class='text-center'>Product Manager</h5>
+                        <p class='card-text text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, laudantium.</p>
+                        <div class="row justify-content-center icons">
+                            <div class="p-4"><i class='fa fa-facebook fa-2x'></i></div>
+                            <div class="p-4"><i class='fa fa-twitter fa-2x'></i></div>
+                            <div class="p-4"><i class='fa fa-instagram fa-2x'></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="card shadow-lg">
+                  <img src="./img/team/team-2.jpg" alt="" class='card-img-top w-50 rounded-circle mx-auto'>
+                  <div class="card-body">
+                      <h2 class='card-title text-center'>Member Name</h2>
+                      <h5 class='text-center'>Team Leader</h5>
+                      <p class='card-text text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, laudantium.</p>
+                      <div class="row justify-content-center icons">
+                          <div class="p-4"><i class='fa fa-facebook fa-2x'></i></div>
+                          <div class="p-4"><i class='fa fa-twitter fa-2x'></i></div>
+                          <div class="p-4"><i class='fa fa-instagram fa-2x'></i></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="card shadow-lg">
+                <img src="./img/team/team-3.jpg" alt="" class='card-img-top w-50 rounded-circle mx-auto'>
+                <div class="card-body">
+                    <h2 class='card-title text-center'>Member Name</h2>
+                    <h5 class='text-center'>Marketing Officer</h5>
+                    <p class='card-text text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, laudantium.</p>
+                    <div class="row justify-content-center icons">
+                        <div class="p-4"><i class='fa fa-facebook fa-2x'></i></div>
+                        <div class="p-4"><i class='fa fa-twitter fa-2x'></i></div>
+                        <div class="p-4"><i class='fa fa-instagram fa-2x'></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="card shadow-lg">
+              <img src="./img/team/team-4.jpg" alt="" class='card-img-top w-50 rounded-circle mx-auto'>
+              <div class="card-body">
+                  <h2 class='card-title text-center'>Member Name</h2>
+                  <h5 class='text-center'>Graphic Designer</h5>
+                  <p class='card-text text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, laudantium.</p>
+                  <div class="row justify-content-center icons">
+                      <div class="p-4"><i class='fa fa-facebook fa-2x'></i></div>
+                      <div class="p-4"><i class='fa fa-twitter fa-2x'></i></div>
+                      <div class="p-4"><i class='fa fa-instagram fa-2x'></i></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+        </div>
+    </div>
+</section>
+<!-- TEAM SECTION ends here -->
   <!-- FOOTER starts here -->
 
   <div class="container-fluid py-5 footer-section">

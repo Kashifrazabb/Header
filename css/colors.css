@@ -7,7 +7,7 @@
 
 .navbar .dropdown a:hover{color:#d9232d;background: transparent;}
 
-.carousel-item:before{background: rgba(0,0,0,0.5);}
+#myCarousel .carousel-item:before{background: rgba(0,0,0,0.5);}
 
 .footer-section{background: #000;}
 
