@@ -7,12 +7,12 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
   <title>CAROUSEL</title>
 </head>
 
 <body>
-  <button class='btn btn-danger rounded-circle doc-btn'>^</button>
+  <button class='btn btn-danger rounded-circle doc-btn shadow-lg'>^</button>
   <!-- NAVBAR starts here -->
   <nav class="navbar navbar-expand-lg fixed-top shadow">
     <div class="container-fluid navbar-wrapper">
@@ -49,8 +49,7 @@
   </nav>
   <!-- NAVBAR ends here -->
   <!-- CAROUSEL starts here -->
-  <div id="myCarousel" class="carousel slide carousel-fade" 
-  data-ride="carousel" data-interval=5000>
+  <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval=5000>
 
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active bg-danger"></li>
@@ -260,49 +259,40 @@
 
   <!-- SERVICES SECTION endshere -->
   <!-- SLIDESHOW starts here -->
-  <div class="container">
-  <div id="slideshow" class="carousel slide" 
-  data-ride="carousel" data-interval=5000 data-pause='false' data-touch="true">
-
-    <div class="carousel-inner row">
-
-      <div class="carousel-item col-lg-3 col-12 active">
-        <img src="./img/slide/slide-1.jpg" alt="Los Angeles" class='img-fluid'/>
-      </div>
-
-      <div class="carousel-item col-lg-3 col-12">
-        <img src="./img/slide/slide-2.jpg" alt="Los Angeles" class='img-fluid'/>
-      </div>
-
-      <div class="carousel-item col-lg-3 col-12">
-        <img src="./img/slide/slide-3.jpg" alt="Los Angeles" class='img-fluid'/>
-      </div>
-
-      <div class="carousel-item col-lg-3 col-12">
-        <img src="./img/slide/slide-1.jpg" alt="Los Angeles" class='img-fluid'/>
-      </div>
-
-      <div class="carousel-item col-lg-3 col-12">
-        <img src="./img/slide/slide-2.jpg" alt="Los Angeles" class='img-fluid'/>
-      </div>
-
+  <!-- <div class="container">
+    <div id="slideshow" class="carousel slide" data-ride="carousel" data-interval=5000 data-pause='false'
+      data-touch="true">
+      <div class="carousel-inner row">
+        <div class="carousel-item col-md-4 active">
+          <img class="img-fluid" src="./img/slide/slide-1.jpg" alt="slide 1">
+        </div>
+        <div class="carousel-item col-md-4 ">
+          <img class="img-fluid" src="./img/slide/slide-2.jpg" alt="slide 1">
+        </div>
+        <div class="carousel-item col-md-4 ">
+          <img class="img-fluid" src="./img/slide/slide-3.jpg" alt="slide 1">
+        </div>
+        <div class="carousel-item col-md-4 ">
+          <img class="img-fluid" src="./img/slide/slide-1.jpg" alt="slide 1">
+        </div>
+        <div class="carousel-item col-md-4 ">
+          <img class="img-fluid" src="./img/slide/slide-2.jpg" alt="slide 1">
+        </div>
     </div>
 
-    <div class="controls-top mt-3">
+    <div class="indicators mt-3">
       <a class="btn-floating mr-2" href="#slideshow" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
       <a class="btn-floating" href="#slideshow" data-slide="next"><i class="fa fa-chevron-right"></i></a>
-    </div>
+    </div> -->
+
   </div>
-</div>
-
-
-
-
+  </div>
 
   <!-- SLIDESHOW ends here -->
   <!-- PORFOLIO SECTION starts here -->
   <div class="container py-5 portfolio-section">
-    <div class="row pb-5"> <!--ROW 1-->
+    <div class="row pb-5">
+      <!--ROW 1-->
       <div class="col-12">
         <h4 id='portfolio-title'>PORTFOLIO&ensp;</h4>
         <h1 id='portfolio-description'>RECENT WORKS</h1>
@@ -322,7 +312,8 @@
         <a class="nav-link" id='web'>WEB</a>
       </li>
     </ul><br /><br />
-    <div class="row justify-content-center pics"> <!-- ROW 2-->
+    <div class="row justify-content-center pics">
+      <!-- ROW 2-->
 
       <div class="col-sm-4">
         <div class="row WEB" id='1'>
@@ -374,76 +365,80 @@
   <!-- TEAM SECTION starts here -->
   <section id="cards">
     <div class="container">
-        <div class="row">
+      <div class="row">
 
-            <div class="col-lg-3 col-md-6">
-                <div class="card shadow-lg">
-                    <img src="./img/team/team-1.jpg" alt="" class='card-img-top w-50 rounded-circle mx-auto'>
-                    <div class="card-body">
-                        <h2 class='card-title text-center'>Member Name</h2>
-                        <h5 class='text-center'>Product Manager</h5>
-                        <p class='card-text text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, laudantium.</p>
-                        <div class="row justify-content-center icons">
-                            <div class="p-4"><i class='fa fa-facebook fa-2x'></i></div>
-                            <div class="p-4"><i class='fa fa-twitter fa-2x'></i></div>
-                            <div class="p-4"><i class='fa fa-instagram fa-2x'></i></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-              <div class="card shadow-lg">
-                  <img src="./img/team/team-2.jpg" alt="" class='card-img-top w-50 rounded-circle mx-auto'>
-                  <div class="card-body">
-                      <h2 class='card-title text-center'>Member Name</h2>
-                      <h5 class='text-center'>Team Leader</h5>
-                      <p class='card-text text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, laudantium.</p>
-                      <div class="row justify-content-center icons">
-                          <div class="p-4"><i class='fa fa-facebook fa-2x'></i></div>
-                          <div class="p-4"><i class='fa fa-twitter fa-2x'></i></div>
-                          <div class="p-4"><i class='fa fa-instagram fa-2x'></i></div>
-                      </div>
-                  </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card shadow-lg">
+            <img src="./img/team/team-1.jpg" alt="" class='card-img-top w-50 rounded-circle mx-auto'>
+            <div class="card-body">
+              <h2 class='card-title text-center'>Member Name</h2>
+              <h5 class='text-center'>Product Manager</h5>
+              <p class='card-text text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
+                laudantium.</p>
+              <div class="row justify-content-center icons">
+                <div class="p-4"><i class='fa fa-facebook fa-2x'></i></div>
+                <div class="p-4"><i class='fa fa-twitter fa-2x'></i></div>
+                <div class="p-4"><i class='fa fa-instagram fa-2x'></i></div>
               </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="card shadow-lg">
-                <img src="./img/team/team-3.jpg" alt="" class='card-img-top w-50 rounded-circle mx-auto'>
-                <div class="card-body">
-                    <h2 class='card-title text-center'>Member Name</h2>
-                    <h5 class='text-center'>Marketing Officer</h5>
-                    <p class='card-text text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, laudantium.</p>
-                    <div class="row justify-content-center icons">
-                        <div class="p-4"><i class='fa fa-facebook fa-2x'></i></div>
-                        <div class="p-4"><i class='fa fa-twitter fa-2x'></i></div>
-                        <div class="p-4"><i class='fa fa-instagram fa-2x'></i></div>
-                    </div>
-                </div>
             </div>
+          </div>
         </div>
 
         <div class="col-lg-3 col-md-6">
           <div class="card shadow-lg">
-              <img src="./img/team/team-4.jpg" alt="" class='card-img-top w-50 rounded-circle mx-auto'>
-              <div class="card-body">
-                  <h2 class='card-title text-center'>Member Name</h2>
-                  <h5 class='text-center'>Graphic Designer</h5>
-                  <p class='card-text text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, laudantium.</p>
-                  <div class="row justify-content-center icons">
-                      <div class="p-4"><i class='fa fa-facebook fa-2x'></i></div>
-                      <div class="p-4"><i class='fa fa-twitter fa-2x'></i></div>
-                      <div class="p-4"><i class='fa fa-instagram fa-2x'></i></div>
-                  </div>
+            <img src="./img/team/team-2.jpg" alt="" class='card-img-top w-50 rounded-circle mx-auto'>
+            <div class="card-body">
+              <h2 class='card-title text-center'>Member Name</h2>
+              <h5 class='text-center'>Team Leader</h5>
+              <p class='card-text text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
+                laudantium.</p>
+              <div class="row justify-content-center icons">
+                <div class="p-4"><i class='fa fa-facebook fa-2x'></i></div>
+                <div class="p-4"><i class='fa fa-twitter fa-2x'></i></div>
+                <div class="p-4"><i class='fa fa-instagram fa-2x'></i></div>
               </div>
+            </div>
           </div>
-      </div>
-
         </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="card shadow-lg">
+            <img src="./img/team/team-3.jpg" alt="" class='card-img-top w-50 rounded-circle mx-auto'>
+            <div class="card-body">
+              <h2 class='card-title text-center'>Member Name</h2>
+              <h5 class='text-center'>Marketing Officer</h5>
+              <p class='card-text text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
+                laudantium.</p>
+              <div class="row justify-content-center icons">
+                <div class="p-4"><i class='fa fa-facebook fa-2x'></i></div>
+                <div class="p-4"><i class='fa fa-twitter fa-2x'></i></div>
+                <div class="p-4"><i class='fa fa-instagram fa-2x'></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="card shadow-lg">
+            <img src="./img/team/team-4.jpg" alt="" class='card-img-top w-50 rounded-circle mx-auto'>
+            <div class="card-body">
+              <h2 class='card-title text-center'>Member Name</h2>
+              <h5 class='text-center'>Graphic Designer</h5>
+              <p class='card-text text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
+                laudantium.</p>
+              <div class="row justify-content-center icons">
+                <div class="p-4"><i class='fa fa-facebook fa-2x'></i></div>
+                <div class="p-4"><i class='fa fa-twitter fa-2x'></i></div>
+                <div class="p-4"><i class='fa fa-instagram fa-2x'></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
-</section>
-<!-- TEAM SECTION ends here -->
+  </section>
+  <!-- TEAM SECTION ends here -->
   <!-- FOOTER starts here -->
 
   <div class="container-fluid py-5 footer-section">
@@ -493,12 +488,12 @@
             <div class="input-group-append">
               <button class='btn btn-danger'>Subscribe</button>
             </div>
-          </div>                                                                                                                                                                                                                                                                                                                                                                       
+          </div>
         </div>
 
       </div>
     </div>
-  </div> 
+  </div>
 
   <div class="container-fluid py-3 text-center footer-last">
     <h6>&copy;2020: Kashif Raza</h6>
@@ -510,7 +505,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   <script src="./js/script.js"></script>
-  
+
 </body>
 
 </html>
