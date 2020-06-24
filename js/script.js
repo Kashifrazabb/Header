@@ -59,11 +59,5 @@ $(document).ready(function () {
     css('animation-duration','2s')
     $('.carousel-caption button').addClass('animate__animated animate__slideInUp').
     css('animation-duration','3s')
-    document.ontouchmove = function(e){
-        e.preventDefault();
-        }
-        input.onfocus = function () {
-            window.scrollTo(0, 0);
-            document.body.scrollTop = 0;
-        }
+
 });
