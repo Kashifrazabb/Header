@@ -20,7 +20,7 @@ $(document).ready(function () {
     if ($(document).width()<=500) { $var1 = 300;
     $('.doc-btn').text('^')
     }
-    else { $var1 = 800;$('.doc-btn').text('⮝') }
+    else { $var1 = 800;$('.doc-btn').text('	▲') }
     if ($(document).scrollTop() >= $var1) {
         $('.doc-btn').css({ visibility: 'visible', opacity: '1', 'z-index': 100 })}
     else { $('.doc-btn').css({ visibility: '' }) }
