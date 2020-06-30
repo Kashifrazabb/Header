@@ -12,7 +12,8 @@
   <title>CAROUSEL</title>
 </head>
 
-<body>
+<body onload="loaderfcn()">
+  <div class="loader"></div>
   <button class='btn btn-danger rounded-circle doc-btn shadow-lg'></button>
   <!-- NAVBAR starts here -->
   <nav class="navbar navbar-expand-lg fixed-top shadow-lg">
@@ -109,6 +110,7 @@
       <span class="carousel-control-next-icon"></span>
     </a>
   </div>
+  
   <!-- CAROUSEL ends here -->
   <!-- SECTION 1 starts here -->
   <div class="clients-bg">
@@ -510,6 +512,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   <script src="./js/script.js"></script>
+  <script>
+    function loaderfcn(){$('.loader').css('display','none')};
+  </script>
 
 </body>
 
